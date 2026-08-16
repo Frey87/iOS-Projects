@@ -152,7 +152,7 @@ This project demonstrates the ability to:
 * **Platform:** Coursera
 * **Course:** Get Started with iOS App Development
 * **Project:** Recipe App with SwiftUI
-* **Taught by::** Ramanujam Srinivasan and SkillUp
+* **Taught by:** Ramanujam Srinivasan and SkillUp
 
 ## Disclaimer
 
