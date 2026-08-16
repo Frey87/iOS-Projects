@@ -130,7 +130,6 @@ The folders above show a recommended logical organization. The exact structure m
 
 ## Screenshots
 
-Add screenshots to a `Screenshots` folder and update the filenames if necessary.
 
 <p align="center">
   <img src="Screenshots/stock-list.png" alt="Stock list" width="23%">
