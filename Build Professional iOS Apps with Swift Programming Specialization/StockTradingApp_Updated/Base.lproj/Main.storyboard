@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zlX-oH-R7c">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Stocks Table View Controller-->
+        <scene sceneID="umG-1H-zlK">
+            <objects>
+                <tableViewController storyboardIdentifier="StocksTableViewController" id="q1A-Yl-FIO" customClass="StocksTableViewController" customModule="StockTradingApp_Updated" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="khc-Fe-yFs">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StockCell" rowHeight="100" id="ryE-Hj-2uQ" customClass="StockCell" customModule="StockTradingApp_Updated" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="393" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ryE-Hj-2uQ" id="6v1-p3-qIN">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmj-Xs-oaL" userLabel="Market Chart">
+                                            <rect key="frame" x="68" y="70" width="124" height="28"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Market Chart"/>
+                                            <connections>
+                                                <action selector="marketChartTapped:" destination="ryE-Hj-2uQ" eventType="touchUpInside" id="b89-at-jc7"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="stock exchange" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hyq-WL-FKN">
+                                            <rect key="frame" x="16" y="22" width="120" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="stock name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5aR-IS-STI">
+                                            <rect key="frame" x="16" y="1" width="88" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Coe-kR-q2M" userLabel="percentage wrapper">
+                                            <rect key="frame" x="283" y="10" width="80" height="31"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="percentage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lfz-bH-Wn0" userLabel="percentage">
+                                                    <rect key="frame" x="0.0" y="4" width="89" height="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="Lfz-bH-Wn0" firstAttribute="centerX" secondItem="Coe-kR-q2M" secondAttribute="centerX" id="2oo-ZF-KXt"/>
+                                                <constraint firstItem="Lfz-bH-Wn0" firstAttribute="leading" secondItem="Coe-kR-q2M" secondAttribute="leading" constant="4" id="3g8-vQ-HaF"/>
+                                                <constraint firstItem="Lfz-bH-Wn0" firstAttribute="centerX" secondItem="Coe-kR-q2M" secondAttribute="centerX" id="A6w-DX-wuX"/>
+                                                <constraint firstAttribute="width" constant="90" id="Iva-V1-LRb"/>
+                                                <constraint firstItem="Lfz-bH-Wn0" firstAttribute="centerY" secondItem="Coe-kR-q2M" secondAttribute="centerY" id="PfW-yV-TA8"/>
+                                                <constraint firstItem="Lfz-bH-Wn0" firstAttribute="leading" secondItem="Coe-kR-q2M" secondAttribute="leading" constant="4" id="Smy-U5-lYG"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="iLQ-lP-erP"/>
+                                                <constraint firstItem="Lfz-bH-Wn0" firstAttribute="leading" secondItem="Coe-kR-q2M" secondAttribute="leading" constant="-3.3333333333333144" id="pt4-Hd-TRg"/>
+                                                <constraint firstItem="Lfz-bH-Wn0" firstAttribute="centerY" secondItem="Coe-kR-q2M" secondAttribute="centerY" id="rpB-lt-n1N"/>
+                                                <constraint firstItem="Lfz-bH-Wn0" firstAttribute="leading" secondItem="Coe-kR-q2M" secondAttribute="leading" constant="10" id="ui0-ry-aDE"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="stock price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ltz-Pr-WD3">
+                                            <rect key="frame" x="17" y="44" width="84" height="20.333333333333329"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0R-V7-h2p" userLabel="Portfolio">
+                                            <rect key="frame" x="220" y="67" width="88" height="34.333333333333343"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Portfolio"/>
+                                            <connections>
+                                                <action selector="portfolioTapped:" destination="ryE-Hj-2uQ" eventType="touchUpInside" id="EUl-tH-cVq"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="M0R-V7-h2p" firstAttribute="baseline" secondItem="hmj-Xs-oaL" secondAttribute="baseline" id="2Ky-HC-XnK"/>
+                                        <constraint firstItem="5aR-IS-STI" firstAttribute="leading" secondItem="6v1-p3-qIN" secondAttribute="leadingMargin" constant="-4" id="4vR-Ya-6Af"/>
+                                        <constraint firstItem="Coe-kR-q2M" firstAttribute="top" secondItem="5aR-IS-STI" secondAttribute="top" id="Cyx-Nq-eze"/>
+                                        <constraint firstItem="hmj-Xs-oaL" firstAttribute="top" secondItem="ltz-Pr-WD3" secondAttribute="bottom" constant="5.6666666666666714" id="HVZ-jj-aQT"/>
+                                        <constraint firstItem="M0R-V7-h2p" firstAttribute="leading" secondItem="hmj-Xs-oaL" secondAttribute="trailing" constant="28" id="KQA-JA-Nrz"/>
+                                        <constraint firstItem="ltz-Pr-WD3" firstAttribute="leading" secondItem="6v1-p3-qIN" secondAttribute="leadingMargin" constant="-3" id="KTl-mJ-i2U"/>
+                                        <constraint firstItem="hmj-Xs-oaL" firstAttribute="top" secondItem="Hyq-WL-FKN" secondAttribute="bottom" constant="23" id="W4L-u2-hSX"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Coe-kR-q2M" secondAttribute="trailing" constant="10" id="YZB-pM-z4v"/>
+                                        <constraint firstItem="Coe-kR-q2M" firstAttribute="top" secondItem="6v1-p3-qIN" secondAttribute="topMargin" constant="-5" id="ZdL-UU-AEs"/>
+                                        <constraint firstItem="hmj-Xs-oaL" firstAttribute="leading" secondItem="6v1-p3-qIN" secondAttribute="leadingMargin" constant="48" id="gQd-im-XYM"/>
+                                        <constraint firstItem="Coe-kR-q2M" firstAttribute="leading" secondItem="6v1-p3-qIN" secondAttribute="leading" constant="283" id="o68-iR-jtl"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="hmj-Xs-oaL" secondAttribute="bottom" constant="-19.333333333333343" id="slE-dg-AZv"/>
+                                        <constraint firstItem="5aR-IS-STI" firstAttribute="leading" secondItem="Hyq-WL-FKN" secondAttribute="leading" id="ycy-ov-0K2"/>
+                                        <constraint firstItem="M0R-V7-h2p" firstAttribute="top" secondItem="Coe-kR-q2M" secondAttribute="bottom" constant="32" id="zJq-hJ-JWe"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="marketChartButton" destination="hmj-Xs-oaL" id="VyC-RA-k4c"/>
+                                    <outlet property="percentageWrapperView" destination="Coe-kR-q2M" id="hVe-Yd-qE2"/>
+                                    <outlet property="portfolioButton" destination="M0R-V7-h2p" id="YrA-2J-oFR"/>
+                                    <outlet property="stockExchangeLabel" destination="Hyq-WL-FKN" id="Asc-g9-qbp"/>
+                                    <outlet property="stockNameLabel" destination="5aR-IS-STI" id="UCT-cU-7gy"/>
+                                    <outlet property="stockPercentageLabel" destination="Lfz-bH-Wn0" id="1jb-Xe-uAf"/>
+                                    <outlet property="stockPriceLabel" destination="ltz-Pr-WD3" id="pm7-iA-fan"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="q1A-Yl-FIO" id="Wew-I6-J2D"/>
+                            <outlet property="delegate" destination="q1A-Yl-FIO" id="y08-Me-yYQ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="c8A-nM-s7v"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mjf-i2-cvR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="692.36641221374043" y="-559.15492957746483"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gg8-ne-NSP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zlX-oH-R7c" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8ts-os-HNF">
+                        <rect key="frame" x="0.0" y="118" width="393" height="54"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="q1A-Yl-FIO" kind="relationship" relationship="rootViewController" id="2fu-S7-8bM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K71-mz-7YY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-234.35114503816794" y="-559.15492957746483"/>
+        </scene>
+        <!--Candlestick Chart View Controller-->
+        <scene sceneID="Ir4-PV-cK7">
+            <objects>
+                <viewController storyboardIdentifier="CandlestickChartViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="P7V-2t-LGn" customClass="CandlestickChartViewController" customModule="StockTradingApp_Updated" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O80-lF-KjA" customClass="CandleStickChartView" customModule="DGCharts">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="MUZ-12-xqY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="chartView" destination="O80-lF-KjA" id="jLD-or-FwZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oGf-aQ-7EW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="439" y="-1236"/>
+        </scene>
+        <!--Pie Chart View Controller-->
+        <scene sceneID="eSe-Ze-Vcg">
+            <objects>
+                <viewController storyboardIdentifier="PieChartViewController" id="QAZ-Wf-PQx" customClass="PieChartViewController" customModule="StockTradingApp_Updated" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aIL-2h-RlU" customClass="PieChartView" customModule="DGCharts">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lpc-oy-LRI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="pieChartView" destination="aIL-2h-RlU" id="qgw-IV-hIe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="brm-5m-fHQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134" y="-1913"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
