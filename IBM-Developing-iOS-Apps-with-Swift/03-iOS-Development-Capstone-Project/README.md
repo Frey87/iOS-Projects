@@ -126,10 +126,10 @@ The folders represent the logical organization of the project. The exact Xcode g
 Add application screenshots to a `Screenshots` folder and update the filenames below if necessary.
 
 <p align="center">
-  <img src="Screenshots/trip-list.png" alt="Trip list" width="30%">
-  <img src="Screenshots/trip-details.png" alt="Trip details" width="30%">
-  <img src="Screenshots/map.png" alt="Trip map" width="30%">
-  <img src="Screenshots/charts.png" alt="Trip map" width="30%">
+  <img src="Screenshots/trip-list.png" alt="Trip list" width="23%">
+  <img src="Screenshots/trip-details.png" alt="Trip details" width="23%">
+  <img src="Screenshots/map.png" alt="Trip map" width="23%">
+  <img src="Screenshots/charts.png" alt="Travel charts" width="23%">
 </p>
 
 ## Requirements
@@ -216,4 +216,3 @@ The project can be evaluated through:
 ## Disclaimer
 
 This repository contains an independent educational implementation created for coursework and portfolio demonstration. IBM, Coursera, SkillUp, and Apple are trademarks of their respective owners.
-
