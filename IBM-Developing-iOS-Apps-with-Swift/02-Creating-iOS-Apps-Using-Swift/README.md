@@ -113,8 +113,6 @@ The folders shown above describe the logical organization of the project. The ex
 
 ## Screenshots
 
-Add application screenshots to a `Screenshots` folder and update the filenames below if necessary.
-
 <p align="center">
   <img src="Screenshots/events-tab.png" alt="Events tab" width="30%">
   <img src="Screenshots/map-tab.png" alt="Map tab" width="30%">
