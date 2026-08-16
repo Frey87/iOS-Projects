@@ -15,6 +15,14 @@ The application is a multi-screen recipe browser built entirely with SwiftUI. Us
 * Asynchronous image loading with placeholders
 * SwiftUI previews for the main views
 
+## Screenshots
+
+<p align="center">
+  <img src="Screenshots/recipe-list.png" alt="Recipe list" width="30%">
+  <img src="Screenshots/recipe-search.png" alt="Recipe search" width="30%">
+  <img src="Screenshots/recipe-details.png" alt="Recipe details" width="30%">
+</p>
+
 ## User stories
 
 1. As a user, I can view a list of available recipes.
