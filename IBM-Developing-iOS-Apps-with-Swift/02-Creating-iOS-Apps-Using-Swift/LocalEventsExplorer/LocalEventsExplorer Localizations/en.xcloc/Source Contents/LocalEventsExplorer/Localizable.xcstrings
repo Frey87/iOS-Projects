@@ -1,0 +1,111 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Center map on my location" : {
+
+    },
+    "Day" : {
+
+    },
+    "Enter city (e.g., Dallas)" : {
+
+    },
+    "Event Details" : {
+
+    },
+    "Event Map" : {
+
+    },
+    "Event Tips" : {
+
+    },
+    "Events" : {
+
+    },
+    "Find Events" : {
+
+    },
+    "Generating event tips…" : {
+
+    },
+    "Hybrid" : {
+
+    },
+    "Illustrative prices showing a possible range before the event." : {
+
+    },
+    "Illustrative ticket price chart" : {
+
+    },
+    "Imagery" : {
+
+    },
+    "Loading events" : {
+
+    },
+    "Loading events…" : {
+
+    },
+    "Local Events" : {
+
+    },
+    "Map" : {
+
+    },
+    "Map Style" : {
+
+    },
+    "Minimum" : {
+
+    },
+    "No Results" : {
+
+    },
+    "No Saved Events" : {
+
+    },
+    "No saved events match your search." : {
+
+    },
+    "Price" : {
+
+    },
+    "Regenerate Tips" : {
+
+    },
+    "Remove %@ from saved events" : {
+
+    },
+    "Retry" : {
+
+    },
+    "Save" : {
+
+    },
+    "Save %@" : {
+
+    },
+    "Save events from the Events tab to view them here." : {
+
+    },
+    "Saved" : {
+
+    },
+    "Saved %@" : {
+
+    },
+    "Saved Events" : {
+
+    },
+    "Search saved events" : {
+
+    },
+    "Standard" : {
+
+    },
+    "Ticket Price Trend" : {
+
+    }
+  },
+  "version" : "1.1"
+}

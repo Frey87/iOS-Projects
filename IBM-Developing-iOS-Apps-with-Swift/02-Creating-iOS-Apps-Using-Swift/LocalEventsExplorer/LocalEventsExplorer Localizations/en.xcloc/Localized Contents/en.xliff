@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="LocalEventsExplorer/LocalEventsExplorer-InfoPlist.xcstrings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.3" build-num="17C529"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>LocalEventsExplorer</source>
+        <target state="new">LocalEventsExplorer</target>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
+        <source>Your location is used to center the event map near you.</source>
+        <target state="new">Your location is used to center the event map near you.</target>
+        <note>Privacy - Location When In Use Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalEventsExplorer/Localizable.xcstrings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.3" build-num="17C529"/>
+    </header>
+    <body>
+      <trans-unit id="Center map on my location" xml:space="preserve">
+        <source>Center map on my location</source>
+        <target state="new">Center map on my location</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Day" xml:space="preserve">
+        <source>Day</source>
+        <target state="new">Day</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Enter city (e.g., Dallas)" xml:space="preserve">
+        <source>Enter city (e.g., Dallas)</source>
+        <target state="new">Enter city (e.g., Dallas)</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Event Details" xml:space="preserve">
+        <source>Event Details</source>
+        <target state="new">Event Details</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Event Map" xml:space="preserve">
+        <source>Event Map</source>
+        <target state="new">Event Map</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Event Tips" xml:space="preserve">
+        <source>Event Tips</source>
+        <target state="new">Event Tips</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Events" xml:space="preserve">
+        <source>Events</source>
+        <target state="new">Events</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Find Events" xml:space="preserve">
+        <source>Find Events</source>
+        <target state="new">Find Events</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Generating event tips…" xml:space="preserve">
+        <source>Generating event tips…</source>
+        <target state="new">Generating event tips…</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Hybrid" xml:space="preserve">
+        <source>Hybrid</source>
+        <target state="new">Hybrid</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Illustrative prices showing a possible range before the event." xml:space="preserve">
+        <source>Illustrative prices showing a possible range before the event.</source>
+        <target state="new">Illustrative prices showing a possible range before the event.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Illustrative ticket price chart" xml:space="preserve">
+        <source>Illustrative ticket price chart</source>
+        <target state="new">Illustrative ticket price chart</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Imagery" xml:space="preserve">
+        <source>Imagery</source>
+        <target state="new">Imagery</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Loading events" xml:space="preserve">
+        <source>Loading events</source>
+        <target state="new">Loading events</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Loading events…" xml:space="preserve">
+        <source>Loading events…</source>
+        <target state="new">Loading events…</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Local Events" xml:space="preserve">
+        <source>Local Events</source>
+        <target state="new">Local Events</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Map" xml:space="preserve">
+        <source>Map</source>
+        <target state="new">Map</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Map Style" xml:space="preserve">
+        <source>Map Style</source>
+        <target state="new">Map Style</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Minimum" xml:space="preserve">
+        <source>Minimum</source>
+        <target state="new">Minimum</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="No Results" xml:space="preserve">
+        <source>No Results</source>
+        <target state="new">No Results</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="No Saved Events" xml:space="preserve">
+        <source>No Saved Events</source>
+        <target state="new">No Saved Events</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="No saved events match your search." xml:space="preserve">
+        <source>No saved events match your search.</source>
+        <target state="new">No saved events match your search.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Price" xml:space="preserve">
+        <source>Price</source>
+        <target state="new">Price</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Regenerate Tips" xml:space="preserve">
+        <source>Regenerate Tips</source>
+        <target state="new">Regenerate Tips</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Remove %@ from saved events" xml:space="preserve">
+        <source>Remove %@ from saved events</source>
+        <target state="new">Remove %@ from saved events</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Retry" xml:space="preserve">
+        <source>Retry</source>
+        <target state="new">Retry</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Save" xml:space="preserve">
+        <source>Save</source>
+        <target state="new">Save</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Save %@" xml:space="preserve">
+        <source>Save %@</source>
+        <target state="new">Save %@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Save events from the Events tab to view them here." xml:space="preserve">
+        <source>Save events from the Events tab to view them here.</source>
+        <target state="new">Save events from the Events tab to view them here.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Saved" xml:space="preserve">
+        <source>Saved</source>
+        <target state="new">Saved</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Saved %@" xml:space="preserve">
+        <source>Saved %@</source>
+        <target state="new">Saved %@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Saved Events" xml:space="preserve">
+        <source>Saved Events</source>
+        <target state="new">Saved Events</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Search saved events" xml:space="preserve">
+        <source>Search saved events</source>
+        <target state="new">Search saved events</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Standard" xml:space="preserve">
+        <source>Standard</source>
+        <target state="new">Standard</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Ticket Price Trend" xml:space="preserve">
+        <source>Ticket Price Trend</source>
+        <target state="new">Ticket Price Trend</target>
+        <note/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
