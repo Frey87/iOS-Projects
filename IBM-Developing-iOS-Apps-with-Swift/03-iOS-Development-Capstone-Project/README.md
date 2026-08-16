@@ -123,8 +123,6 @@ The folders represent the logical organization of the project. The exact Xcode g
 
 ## Screenshots
 
-Add application screenshots to a `Screenshots` folder and update the filenames below if necessary.
-
 <p align="center">
   <img src="Screenshots/trip-list.png" alt="Trip list" width="23%">
   <img src="Screenshots/trip-details.png" alt="Trip details" width="23%">
