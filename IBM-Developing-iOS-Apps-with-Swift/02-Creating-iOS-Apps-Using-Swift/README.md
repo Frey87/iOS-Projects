@@ -181,7 +181,7 @@ This project demonstrates the ability to:
 * **Platform:** Coursera
 * **Course:** Creating iOS Apps Using Swift
 * **Final project:** Local Events Explorer
-* **Taught by:**Ramanujam Srinivasan and SkillUp
+* **Taught by:** Ramanujam Srinivasan and SkillUp
 
 ## Disclaimer
 
