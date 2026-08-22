@@ -10,7 +10,7 @@ import CoreLocation
 
 final class LocationService {
 
-    private let apiKey = "a7002dab94a802a2e15cf5ab955da39d"
+    private let apiKey = "Put_Your_API_Key_Here_My_Was_OpenWeatherMap_Token"
 
     func fetchWeather(
         for coordinate: CLLocationCoordinate2D
